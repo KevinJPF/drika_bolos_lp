@@ -1,0 +1,93 @@
+:root {
+  /* ========================================
+     CORES PRINCIPAIS
+  ======================================== */
+
+  --color-primary: #c4764e;
+  --color-primary-hover: #ad623d;
+
+  --color-secondary: #f3d37f;
+  --color-tertiary: #4d7c5d;
+  --color-tertiary-hover: #3c674b;
+
+  --color-background: #fdfbf7;
+  --color-surface: #f6efe6;
+  --color-surface-white: #ffffff;
+  --color-surface-highlight: #fff8e7;
+
+  --color-text: #4a332d;
+  --color-text-muted: #735c54;
+
+  --color-border: rgba(74, 51, 45, 0.15);
+  --color-border-strong: rgba(74, 51, 45, 0.2);
+
+  --color-error: #ba1a1a;
+  --color-success: #4d7c5d;
+
+  /* ========================================
+     TIPOGRAFIA
+  ======================================== */
+
+  --font-heading: "Literata", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --font-size-display: 3rem;
+  --font-size-display-mobile: 2.125rem;
+
+  --font-size-h1: 3rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.625rem;
+  --font-size-h4: 1.25rem;
+
+  --font-size-title: 1.125rem;
+  --font-size-body-lg: 1.0625rem;
+  --font-size-body: 0.9375rem;
+  --font-size-body-sm: 0.8125rem;
+
+  --line-height-heading: 1.25;
+  --line-height-body: 1.6;
+
+  /* ========================================
+     ESPAÇAMENTOS
+  ======================================== */
+
+  --space-xs: 0.375rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 1.75rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 5rem;
+
+  --page-gutter: 1.25rem;
+  --page-gutter-desktop: 3rem;
+  --section-spacing: 4rem;
+
+  /* ========================================
+     BORDAS E ARREDONDAMENTOS
+  ======================================== */
+
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* ========================================
+     SOMBRAS
+  ======================================== */
+
+  --shadow-card: 0 4px 20px rgba(74, 51, 45, 0.08);
+
+  --shadow-card-hover: 0 8px 28px rgba(74, 51, 45, 0.14);
+
+  /* ========================================
+     LAYOUT
+  ======================================== */
+
+  --container-max-width: 1200px;
+
+  --transition-default: 180ms ease-in-out;
+}
