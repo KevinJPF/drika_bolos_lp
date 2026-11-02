@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-container": "#507f5f", "on-secondary-fixed": "#241a00", "on-primary-fixed": "#341100", "primary": "#8d4a26", "background": "#fff8f6", "tertiary-fixed-dim": "#a0d2ae", "on-tertiary-fixed-variant": "#215034", "secondary-fixed": "#ffe08e", "outline": "#86736b", "on-surface": "#2a1712", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#00210f", "surface-container-highest": "#ffdbd1", "error-container": "#ffdad6", "inverse-surface": "#412b25", "outline-variant": "#d9c2b8", "surface-bright": "#fff8f6", "primary-container": "#ab623b", "on-error-container": "#93000a", "tertiary-fixed": "#bbefc9", "primary-fixed-dim": "#ffb692", "on-error": "#ffffff", "secondary-fixed-dim": "#e2c371", "surface-dim": "#f6d2c9", "surface-tint": "#904c28", "surface": "#fff8f6", "on-tertiary": "#ffffff", "surface-variant": "#ffdbd1", "on-secondary": "#ffffff", "surface-container-high": "#ffe2db", "surface-container-low": "#fff1ed", "secondary": "#735c13", "primary-fixed": "#ffdbcb", "error": "#ba1a1a", "inverse-on-surface": "#ffede9", "on-secondary-container": "#776017", "on-tertiary-container": "#f6fff5", "inverse-primary": "#ffb692", "on-primary-fixed-variant": "#723513", "on-surface-variant": "#53433c", "tertiary": "#376548", "on-background": "#2a1712", "on-primary": "#ffffff", "secondary-container": "#fddd88", "on-secondary-fixed-variant": "#584400", "surface-container": "#ffe9e4", "on-primary-container": "#fffbff" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-md": "1.25rem", "margin-desktop": "3rem", "space-xs": "0.375rem", "gutter": "1.25rem", "space-lg": "1.75rem", "space-xl": "2.5rem", "space-sm": "0.75rem", "margin": "1.25rem", "gutter-desktop": "2rem" }, fontFamily: { "label-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-md": ["Literata"], "headline-sm": ["Literata"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "display-lg": ["Literata"], "display-lg-mobile": ["Literata"], "headline-lg": ["Literata"], "label-lg": ["Plus Jakarta Sans"] }, fontSize: { "label-md": ["12px", { lineHeight: "16px", fontWeight: "600" }], "body-sm": ["13px", { lineHeight: "20px", fontWeight: "400" }], "title-md": ["18px", { lineHeight: "26px", fontWeight: "600" }], "body-md": ["15px", { lineHeight: "24px", fontWeight: "400" }], "headline-md": ["26px", { lineHeight: "34px", fontWeight: "600" }], "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }], "body-lg": ["17px", { lineHeight: "26px", fontWeight: "400" }], "label-sm": ["11px", { lineHeight: "14px", fontWeight: "500" }], "display-lg": ["48px", { lineHeight: "56px", fontWeight: "700" }], "display-lg-mobile": ["34px", { lineHeight: "42px", fontWeight: "700" }], "headline-lg": ["32px", { lineHeight: "40px", fontWeight: "600" }], "label-lg": ["14px", { lineHeight: "20px", fontWeight: "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(74,51,45,0.06)] pt-safe"><div class="h-20 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="Um Rolo de Café com Bolo by Drika" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UQm-SS8RXnMHpT-nStsn8rSiFB6RCbWghE56SReMzm-5QK2BNt7jGaJE-BqsZoh_2ZWbnlwEjM4bAQXswjTGU2M4-XwIEo-OZ6SvbK4JYWnx2Qt6-9Mx6q6mpm0lr-OLxxG_PyUlZ-UUDaCLm2tyzdPauTxVqt7sbUkyqUNswWwjXPe8EafJNH8EM7U1ret9enk9yI6WUjNExSJ9u3kzGNFizdnBHWPZNWWSlE4C1sGrVld1LkypsCnOriEbttp2-mMEXOLmDT"/><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-title-md text-title-md text-on-surface leading-tight font-semibold">Drika Confeitaria</span><span class="inline-flex items-center px-1.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm">Confeitaria Afetiva</span></div><span class="font-label-sm text-label-sm text-outline">Cardápio Afetivo</span></div></div><div class="flex items-center gap-2"><a aria-label="WhatsApp Pedidos" class="w-11 h-11 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center transition-transform hover:scale-105 active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-20 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. SEÇÃO PRINCIPAL (HERO) -->
+<section class="relative w-full px-space-md pt-4 pb-8 flex flex-col gap-5">
+<!-- Trust Badge Pill -->
+<div class="self-start flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">eco</span>
+<span class="font-label-sm text-label-sm font-semibold tracking-wide">Ingredientes selecionados • Feito sob encomenda</span>
+</div>
+<!-- Impact Headline & Subtitle -->
+<div class="flex flex-col gap-2">
+<h1 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+        Bolos feitos com carinho para tornar seus momentos ainda mais <span class="text-primary italic">especiais</span>.
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Confeitaria 100% artesanal, massas fofinhas e recheios generosos feitos à mão com afeto de vó e toque sofisticado.
+      </p>
+</div>
+<!-- Hero Image Showcase -->
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-md bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Bolo artesanal decorado em três andares com calda de caramelo escorrendo, flores naturais e topo dourado em cozinha aconchegante de ateliê gourmet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkod7l_8URoV3u6nnOi9uGgVGa3tBZxwTuLaaFb6tvySsl-RBeyAOZFE9WvJx2p2MgZ2efRI1wzGgiom7NiqbotTb6FftrfVG4TTpozv7rw9q6BUrYIsTJm968NwI-p9i_tKeAkw06aQARcGXwbjQAJMH01jgQkn60mLiU47MTheSSpXsOdNNiS2YzEUvsYaVh_CvmSW4Q4kFigRDGGjxICVm3trRhY9uha0VvoSQE6yHJasIHMFc5yQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-surface">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">star</span>
+<span class="font-label-sm text-label-sm font-medium">Bolo Caramelo Dourado &amp; Flores</span>
+</div>
+<span class="font-label-sm text-label-sm bg-primary/80 backdrop-blur-sm px-2.5 py-0.5 rounded-full text-on-primary">Edição Festiva</span>
+</div>
+</div>
+<!-- WhatsApp Hero CTA Button -->
+<a class="w-full py-4 px-5 rounded-lg bg-tertiary hover:bg-tertiary-container text-on-tertiary font-label-lg text-label-lg flex items-center justify-center gap-2.5 shadow-md active:scale-[0.98] transition-all" href="https://wa.me/?text=Olá%20Drika!%20Gostaria%20de%20encomendar%20um%20bolo%20especial." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span>Encomende seu bolo pelo WhatsApp</span>
+</a>
+<!-- Micro Stats strip -->
+<div class="grid grid-cols-3 gap-2 pt-1">
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-title-md text-title-md text-primary font-bold">+500</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Festas adoçadas</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-title-md text-title-md text-primary font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Artesanal puro</span>
+</div>
+<div class="bg-surface-container-low p-2.5 rounded-lg flex flex-col items-center text-center">
+<span class="font-title-md text-title-md text-primary font-bold">5.0 ★</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Avaliações</span>
+</div>
+</div>
+</section>
+<!-- 2. GALERIA DE BOLOS INTERATIVA -->
+<section class="w-full px-space-md py-6 flex flex-col gap-4 bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">cake</span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">Nosso Cardápio</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Galeria dos Sonhos</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Escolha sua inspiração para transformar em doce lembrança.</p>
+</div>
+<!-- Category Tabs (Horizontal Scrollable) -->
+<div class="flex gap-2 overflow-x-auto pb-1 no-scrollbar" id="categoryTabs">
+<button class="gallery-tab px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap shadow-sm transition-all" onclick="filterGallery('todos', this)">
+        Todos
+      </button>
+<button class="gallery-tab px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-all" onclick="filterGallery('aniversario', this)">
+        Aniversário
+      </button>
+<button class="gallery-tab px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-all" onclick="filterGallery('decorados', this)">
+        Decorados &amp; Temáticos
+      </button>
+<button class="gallery-tab px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-all" onclick="filterGallery('eventos', this)">
+        Casamentos &amp; Festas
+      </button>
+<button class="gallery-tab px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-all" onclick="filterGallery('cortes', this)">
+        Recheios &amp; Cortes
+      </button>
+</div>
+<!-- Gallery Grid of Cards -->
+<div class="flex flex-col gap-4 pt-2" id="galleryContainer">
+<!-- Card 1 (Destaque Corte Recheado) -->
+<div class="gallery-item cortes todos bg-surface-container-lowest rounded-xl p-3 shadow-sm flex flex-col gap-2.5">
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Fatia suculenta de bolo de chocolate recheada com ganache aveludada e frutas vermelhas frescas sendo cortada sobre prato de cerâmica artesanal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCflLuHM6vQYB2PvWOru3mnDzWdLXiinpqvEgNLdmT_j-kmq8ZuyceuWivpJ2gjIdc4qeMmC4PBHiyCGbh1VsjBdliX-E_56VHqwUdccCvcLi9dIwrWtMpu8zmuMJetfsUi-3qvCs9JXixpFeRGPcT6SeaCM7otHpxVk1C7p_n9mWG-BDlh_QkQY-X3Jd7GgfLCW5gkPRTfP0WbXpm3wazjfEQ5AZ86qJAxFt4XB9Om9flCkfVTMFvheA"/>
+<span class="absolute top-2.5 right-2.5 bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full font-semibold">Corte Cremoso</span>
+</div>
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Fatia Chiffon Trufada &amp; Frutas Vermelhas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Massa 50% cacau super úmida com ganache belga aveludada e coulis fresco de framboesas e mirtilos.</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">touch_app</span> Toque para pedir
+          </span>
+<a class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm hover:opacity-90" href="https://wa.me/?text=Olá%20Drika!%20Adorei%20a%20Fatia%20Chiffon%20Trufada,%20quero%20um%20orçamento.">
+            Quero esse
+          </a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="gallery-item aniversario todos bg-surface-container-lowest rounded-xl p-3 shadow-sm flex flex-col gap-2.5">
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Bolo festivo com calda drip de caramelo dourado, flores delicadas de açúcar e acabamento em buttercream amanteigado rústico" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYEP2JDM7J31begNm47avMjAIMREOMFX-TgFJ5LBhrhb2kJL9a5pHsq6u4WE9HcZM4aK_xff_IkLJ78sbe6YWM4MxwRaHb-cMTCTW8Yt9MkRdJykGmlqpoWOKmsvz7Q6c_B8FXKtoXG3v8h2HzGOji0Wk99b7nQdwbrVJeeZAaMWsFncOM5sW7oUF9sd4PUN6OIC77auXWzsbyEhDDTQ32seZHg-V37Ts80AzT8Tn1Nbl7XnOCUgjKfg"/>
+<span class="absolute top-2.5 right-2.5 bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm px-2.5 py-0.5 rounded-full font-semibold">Mais Pedido</span>
+</div>
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Caramelo Dourado &amp; Buttercream</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Massa de baunilha artesanal, recheio de caramelo salgado com nozes crocantes e acabamento floral.</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">touch_app</span> Toque para pedir
+          </span>
+<a class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm hover:opacity-90" href="https://wa.me/?text=Olá%20Drika!%20Quero%20o%20Bolo%20Caramelo%20Dourado%20para%20minha%20festa.">
+            Quero esse
+          </a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="gallery-item decorados eventos todos bg-surface-container-lowest rounded-xl p-3 shadow-sm flex flex-col gap-2.5">
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Bolo elegante com cobertura aveludada em tons suaves de creme e morangos frescos suculentos com folhas de ouro delicadas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeGh9wGUsDwSI1aU6gNE0hzo1TKy_-E1ZfoLqvgHKeS1Al8cvXz9GSkaakBGqOF7lqAnP8RqBcd8HTHl_OKWMXKGFy6H37KqgePZEsX13nezZQbYu_Jg14bxCyT_dEBiXGEyGZWKqvUi0XHH0Wx6G1j_cYGalctUIDfcZtoPgynL06TKSbqT9opVoUM3nG2pOx_dWy2tDbBx_JQJCdGrhLbwMopU-EmaR4WaodnItklclliAJap0eq0Q"/>
+<span class="absolute top-2.5 right-2.5 bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm px-2.5 py-0.5 rounded-full font-semibold">Especial</span>
+</div>
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Ninho Nobre &amp; Morangos Frescos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Creme suave quatro leites trufado com pedaços generosos de morangos e massa aerada.</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">touch_app</span> Toque para pedir
+          </span>
+<a class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm hover:opacity-90" href="https://wa.me/?text=Olá%20Drika!%20Adorei%20o%20bolo%20de%20Ninho%20com%20Morangos.">
+            Quero esse
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SABORES, RECHEIOS E OPÇÕES (GUIA PRÁTICO) -->
+<section class="w-full px-space-md py-8 flex flex-col gap-5">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">restaurant_menu</span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider">Monte do Seu Jeito</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Sabores, Recheios &amp; Tamanhos</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Combinações artesanais elaboradas para surpreender cada convidado.</p>
+</div>
+<!-- Accordion Blocks -->
+<div class="flex flex-col gap-3">
+<!-- Massas -->
+<div class="bg-surface-container-low rounded-xl p-4 shadow-sm flex flex-col gap-2">
+<div class="flex items-center gap-2.5 text-primary">
+<span class="material-symbols-outlined text-[22px]">bakery_dining</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Massas Artesanais</h3>
+</div>
+<ul class="flex flex-col gap-2 pt-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong class="text-on-surface">Baunilha Amanteigada:</strong> Macia, aromatizada com favas e textura aveludada.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong class="text-on-surface">Chocolate 50% Cacau:</strong> Intensa, úmida e perfeita para recheios cremosos.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong class="text-on-surface">Red Velvet:</strong> Clássica massa vermelha aveludada com toque suave de cacau.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span><strong class="text-on-surface">Cenoura com Especiarias:</strong> Fofinha com um toque especial de canela e noz-moscada.</span>
+</li>
+</ul>
+</div>
+<!-- Recheios -->
+<div class="bg-surface-container-low rounded-xl p-4 shadow-sm flex flex-col gap-2">
+<div class="flex items-center gap-2.5 text-secondary">
+<span class="material-symbols-outlined text-[22px]">cookie</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Recheios Nobres</h3>
+</div>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Brigadeiro Belga Cremoso</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Ninho com Morangos Frescos</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Caramelo Salgado &amp; Nozes</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Ganache Frutas Vermelhas</span>
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Quatro Leites Especial</span>
+</div>
+</div>
+<!-- Coberturas & Acabamentos -->
+<div class="bg-surface-container-low rounded-xl p-4 shadow-sm flex flex-col gap-2">
+<div class="flex items-center gap-2.5 text-tertiary">
+<span class="material-symbols-outlined text-[22px]">brush</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Coberturas &amp; Toppings</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Buttercream sedoso, Ganache blindada resistente ao calor, Chantininho leve, Flores naturais higienizadas e calda de Drip Cake em cascata.
+        </p>
+</div>
+<!-- Guia de Tamanhos -->
+<div class="bg-surface-container rounded-xl p-4 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">straighten</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Guia de Rendimento</h3>
+</div>
+<div class="grid grid-cols-1 gap-2.5">
+<div class="bg-surface-container-lowest p-3 rounded-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tamanho P (15 cm)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ideal para até 10 a 12 fatias</span>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 bg-surface-container-high rounded text-primary font-semibold">Comemoração Íntima</span>
+</div>
+<div class="bg-surface-container-lowest p-3 rounded-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tamanho M (20 cm)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ideal para 20 a 25 fatias</span>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 bg-surface-container-high rounded text-primary font-semibold">Família &amp; Amigos</span>
+</div>
+<div class="bg-surface-container-lowest p-3 rounded-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Tamanho G (25 cm)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ideal para 35 a 40 fatias</span>
+</div>
+<span class="font-label-sm text-label-sm px-2.5 py-1 bg-surface-container-high rounded text-primary font-semibold">Grandes Festas</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Nota Afetiva de Transparência -->
+<div class="bg-secondary-container/40 p-4 rounded-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">sentiment_satisfied</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>Cada encomenda é única!</strong> Ajustamos açúcar, texturas e temas conforme seu gosto. Solicite seu orçamento personalizado sem compromisso.
+      </p>
+</div>
+</section>
+<!-- 4. DEPOIMENTOS DE CLIENTES (PROVA SOCIAL) -->
+<section class="w-full px-space-md py-6 flex flex-col gap-4 bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Depoimentos Reais</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Amor em Cada Mensagem</h2>
+<div class="flex items-center gap-2">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">5.0 de aprovação no WhatsApp</span>
+</div>
+</div>
+<!-- Depoimentos Cards (Estilo Prints de Mensagem) -->
+<div class="flex flex-col gap-3">
+<!-- Depoimento 1 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex flex-col gap-2 relative">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary font-label-md text-label-md">MS</div>
+<span class="font-label-md text-label-md text-on-surface">Mariana S.</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Bolo de Aniversário</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          “Drika, o bolo foi a atração da festa! Todo mundo elogiou a massa molhadinha e o recheio de brigadeiro belga não sobrou nada! Parabéns pelo amor colocado!”
+        </p>
+</div>
+<!-- Depoimento 2 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-secondary font-label-md text-label-md">CR</div>
+<span class="font-label-md text-label-md text-on-surface">Camila &amp; Rodrigo</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Casamento</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          “Nunca comi um bolo de casamento tão gostoso e lindo. Perfeito nos mínimos detalhes, as flores estavam impecáveis! Parabéns pelo capricho inigualável!”
+        </p>
+</div>
+<!-- Depoimento 3 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center font-bold text-tertiary font-label-md text-label-md">LM</div>
+<span class="font-label-md text-label-md text-on-surface">Luciana M.</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Cliente Frequente</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          “Atendimento nota mil pelo WhatsApp, super atenciosa e pontualíssima na entrega. Já virou a boleira oficial da nossa família para todos os momentos!”
+        </p>
+</div>
+</div>
+<!-- Proof Badge Banner -->
+<div class="w-full p-3 rounded-lg bg-surface-container flex items-center justify-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">celebration</span>
+<span class="font-label-sm text-label-sm font-semibold">Mais de 500 comemorações adoçadas com amor</span>
+</div>
+</section>
+<!-- 5. QUEM FAZ OS BOLOS (SOBRE DRIKA) -->
+<section class="w-full px-space-md py-8 flex flex-col gap-5">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[20px]">person_heart</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">História &amp; Paixão</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Conheça a Confeiteira Drika</h2>
+</div>
+<!-- Card Drika Portrait -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full aspect-square bg-surface-container">
+<img alt="Drika confeiteira sorridente com bolo confeitado artesanal em sua cozinha acolhedora" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHbBDFZ_fpPbV8vhyxAnmJBtloJlpxgPoirNDUFKtT-rXUpkAbVaKpfBPV9vX-PWOyMXF1Q3E9dEW0GOT80nOpGX9_Ly7NkszUXME0OO1uvxpmYFOcuH29T2rkHVsAgQNe2ZmswewePCykxMN-6I6cWRELANSQWK3qGhoxokWdlv8wZGJu_vlaLz9BxF6zbbf44VqnE4XWNPLPZAT5xf4y5SQvjsGfgzqlvqNy6m-efrWwdAV4Qn5BQg"/>
+</div>
+<div class="p-5 flex flex-col gap-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">Do coração da cozinha para a sua mesa</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Há mais de 7 anos transformando açúcar, afeto e farinha em memórias inesquecíveis. Tudo começou na cozinha de casa, inspirada pela vontade de reunir quem amamos em volta da mesa com uma xícara de café quentinho e uma fatia de bolo recém-saída do forno.
+        </p>
+<div class="bg-surface-container-lowest p-3.5 rounded-lg flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">verified</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">
+            “Ingredientes nobres, zero conservantes industriais e dedicação em cada detalhe da decoração para o seu momento brilhar.”
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. COMO FUNCIONA A ENCOMENDA (PASSO A PASSO) -->
+<section class="w-full px-space-md py-6 flex flex-col gap-4 bg-surface-container-low">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[20px]">format_list_numbered</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Praticidade</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Como Fazer sua Encomenda</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Três passos simples para ter o bolo dos seus sonhos na sua data especial.</p>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Passo 1 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex items-center justify-center font-bold font-title-md text-title-md shrink-0">
+          1
+        </div>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Entre em Contato</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Conte a ocasião, data do evento, estilo desejado e a quantidade aproximada de convidados.</p>
+</div>
+</div>
+<!-- Passo 2 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center font-bold font-title-md text-title-md shrink-0">
+          2
+        </div>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Receba seu Orçamento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Escolha com carinho a massa, o recheio e os detalhes da decoração conforme o orçamento detalhado.</p>
+</div>
+</div>
+<!-- Passo 3 -->
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center font-bold font-title-md text-title-md shrink-0">
+          3
+        </div>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Combine Entrega ou Retirada</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tudo pronto, fresco e embalado com máxima segurança e cuidado para a sua festa acontecer sem imprevistos.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. INFORMAÇÕES PRÁTICAS, CONTATO & INSTAGRAM -->
+<section class="w-full px-space-md py-8 flex flex-col gap-6">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[20px]">info</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Tudo O que Precisa Saber</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Informações &amp; Atendimento</h2>
+</div>
+<!-- Info Cards Grid -->
+<div class="flex flex-col gap-3">
+<div class="p-3.5 rounded-lg bg-surface-container-low flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">local_shipping</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Entrega &amp; Retirada</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Delivery nos principais bairros da cidade ou retirada com hora marcada no ateliê.</span>
+</div>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-container-low flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">schedule</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Antecedência Recomendada</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mínimo de 3 a 5 dias para bolos decorados e personalizados.</span>
+</div>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-container-low flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary text-[24px]">alarm</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Horários de Atendimento</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Segunda a Sábado, das 09h às 19h (WhatsApp).</span>
+</div>
+</div>
+</div>
+<!-- Seção Instagram Grid -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">photo_camera</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">@umrolodecafecombolo</span>
+</div>
+<a class="font-label-sm text-label-sm text-primary font-semibold hover:underline" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+          Ver Perfil
+        </a>
+</div>
+<!-- Miniaturas de Feed Instagram -->
+<div class="grid grid-cols-3 gap-2">
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Bolo caseiro de cenoura com cobertura espessa de brigadeiro belga escorrendo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKy6vdPU6Md9MRHXk547RJG141LwtRAYPb9qPH0bSQEzrFlfKVGYuQzYkGyoX8jaxt9ZRMzuk_-3_j26AWkNEifZlm9b7bE9LIdnX8PWpsyNwRo4X6REL4pMEUqhmbCqdJk0yQT5IjF1ktcFfgWxy1kMQ_WtkRMOfKlJm37rZAsiK2XDsrSEWahGy3T9N2RWlrY3OyEjWZ8GleICYDcQqlJXWZC1gXih0n74eSY1-AopDnT7dbmQha1g"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Mesa posta de café da tarde com xícara fumegante e bolo decorado com frutas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVXrbPZc9kSwP2UducqZxPlYXWBuU3LX9aERo7a5Rxvr7BstKQF97NPm4N_e_ohlgvtPY6s6UQkJTTwzyYiYH6wkqXoeI_LP-Ia3wDGLq6X39OTpIzhHMo3Smhr_URA1izMJFh3_PGaGpJOH3ouVW336ePuL1sDKHglhwMlBYRL7zLLjCVmPcLlMNxpK6izBW0NP0j7in7SCONAu8yrdBdeHQrWTX-HwzKo3m3TOJDrAA7awl341PeHA"/>
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Close de docinhos gourmet confeitados artesanalmente em forminhas elegantes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoJNB6joJcJmvdIhVsaHGJo_vb9eVzQVjpKz7inT9ws3Q-SR-koD9UIHBo03SGl1Tp0cj0dUEQSyFWpwOmAinKInAm7aYhRMeRDLqhLlSonL6YZC7-KBv9NdSOTQcg8M20MRiFr8ciU0maGtQxf8csfZhjlDRcjmIqWDMnN3mJ8yMCz7vQ0UHWXCmSL3x9KU1a7ja2f37-0DRAnzQPnoVwmD2Oc9jOrhGb0Mk1J6cGsFqyNzIslNGdhw"/>
+</div>
+</div>
+<a class="w-full py-2.5 px-4 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-surface-container-high transition-colors" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span>Siga no Instagram para ver fornadas diárias</span>
+</a>
+</div>
+<!-- Final Direct CTA Button -->
+<div class="pt-4 flex flex-col gap-2">
+<a class="w-full py-4 px-5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2.5 shadow-md active:scale-[0.98] transition-all" href="https://wa.me/?text=Olá%20Drika!%20Gostaria%20de%20conversar%20sobre%20uma%20encomenda." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">calendar_today</span>
+<span>Garantir Minha Data pelo WhatsApp</span>
+</a>
+<span class="text-center font-label-sm text-label-sm text-on-surface-variant">Respondemos com amor e rapidez no horário comercial!</span>
+</div>
+</section>
+<!-- 8. BOTÃO FLUTUANTE DE WHATSAPP (FIXO MOBILE COM PULSO) -->
+<div class="fixed bottom-20 right-4 z-40">
+<a aria-label="Pedir pelo WhatsApp" class="flex items-center gap-2 px-4 py-3 rounded-full bg-tertiary text-on-tertiary shadow-xl hover:bg-tertiary-container active:scale-95 transition-all animate-bounce" href="https://wa.me/?text=Olá%20Drika!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span class="font-label-md text-label-md font-bold tracking-wide pr-1">Pedir pelo WhatsApp</span>
+</a>
+</div>
+</div>
+<script>
+  function filterGallery(category, clickedButton) {
+    const tabs = document.querySelectorAll('.gallery-tab');
+    tabs.forEach(tab => {
+      tab.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      tab.classList.add('bg-surface-container', 'text-on-surface');
+    });
+
+    clickedButton.classList.remove('bg-surface-container', 'text-on-surface');
+    clickedButton.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+    const items = document.querySelectorAll('.gallery-item');
+    items.forEach(item => {
+      if (category === 'todos' || item.classList.contains(category)) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(74,51,45,0.08)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors hover:text-on-surface" data-path="cardapio-afetivo" href="#"><span class="material-symbols-outlined text-[22px]">cake</span><span class="font-label-sm text-label-sm">Cardápio</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors hover:text-on-surface" data-path="encomendas-especiais" href="#"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm">Encomendas</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors hover:text-on-surface" data-path="cesta-de-delicias" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="font-label-sm text-label-sm">Cesta</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] text-on-surface-variant transition-colors hover:text-on-surface" data-path="sobre-drika" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="font-label-sm text-label-sm">Drika</span></a></div></nav></body></html>

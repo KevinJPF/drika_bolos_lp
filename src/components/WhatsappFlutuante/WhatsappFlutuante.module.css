@@ -1,0 +1,4 @@
+.botao { position: fixed; z-index: 100; bottom: max(24px, env(safe-area-inset-bottom)); right: max(24px, env(safe-area-inset-right)); display: flex; align-items: center; gap: 12px; padding: 16px 22px; border-radius: 50px; background: #276744; color: white; box-shadow: 0 5px 24px #244d4033; border: 1px solid #ffffff60; font-size: 12px; font-weight: 600; transition: background .2s, transform .2s; }
+.botao svg { width: 25px; height: 25px; flex-shrink: 0; }
+.botao:hover { background: #1e5236; transform: translateY(-3px); }
+@media (max-width: 650px) { .botao { bottom: max(16px, env(safe-area-inset-bottom)); right: 16px; padding: 16px; } .botao span { display: none; } }

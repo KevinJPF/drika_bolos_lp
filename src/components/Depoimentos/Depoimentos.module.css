@@ -1,0 +1,10 @@
+.secao { padding-block: 65px; background: #f8f0e3; border-top: 1px solid #e7dccc; }
+.secao h2 { margin: 18px 0 25px; }
+.secao em { color: var(--color-primary); font-weight: 400; }
+.vazio { font-size: 13px; color: var(--color-text-muted); margin-bottom: 0; }
+.lista { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 28px; }
+.lista figure { margin: 0; padding: 25px; background: var(--color-background); border: 1px solid #e7dccc; }
+.lista figure > span { font: 50px/1 var(--font-heading); color: var(--color-primary); }
+.lista blockquote { margin: 0 0 25px; font: italic 19px/1.7 var(--font-heading); }
+.lista figcaption { font-size: 12px; font-weight: 600; }
+.lista small { display: block; font-size: 10px; font-weight: 400; }

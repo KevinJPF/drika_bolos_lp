@@ -1,12 +1,17 @@
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home";
+import WhatsappFlutuante from "./components/WhatsappFlutuante/WhatsappFlutuante";
 import "./App.css";
-import { Hero } from "./pages/Hero/Hero";
 
-function App() {
-  return (
-    <div className="container bg-black">
-      <Hero />
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <Header />
+    <Home />
+    <Footer />
+    <WhatsappFlutuante />
+  </>
+);
 
 export default App;

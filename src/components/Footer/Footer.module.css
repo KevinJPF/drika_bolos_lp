@@ -1,0 +1,5 @@
+.footer { padding-block: 40px 110px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 25px; }
+.marca { font: 25px var(--font-heading); }
+.footer p { font-size: 11px; margin: 6px 0 0; color: var(--color-text-muted); }
+.links { display: flex; gap: 25px; font-size: 12px; }
+.footer small { width: 100%; border-top: 1px solid var(--color-border); padding-top: 20px; font-size: 10px; color: var(--color-text-muted); }

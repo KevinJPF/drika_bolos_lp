@@ -1,0 +1,57 @@
+.faixa { display: flex; justify-content: center; align-items: center; gap: 65px; padding: 22px 20px; background: #f1e8da; border-block: 1px solid #e6d9c8; font-size: 10px; letter-spacing: 1.4px; text-transform: uppercase; }
+.faixa > span:nth-child(even) { color: #a36a48; font-size: 20px; }
+.secao { padding-block: 90px; }
+.cabecalho { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 42px; }
+.secao h2 { margin: 18px 0 38px; }
+.cabecalho h2 { margin-bottom: 0; }
+.cabecalho em { font-weight: 400; color: var(--color-primary); }
+.cabecalho > p { font-size: 12px; color: var(--color-text-muted); }
+.bolos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.imagem { position: relative; overflow: hidden; border-radius: 120px 120px 4px 4px; margin-bottom: 25px; background: var(--color-surface); }
+.imagem img { width: 100%; height: 330px; object-fit: cover; transition: transform .4s; }
+.bolo:hover img { transform: scale(1.035); }
+.imagem > span { position: absolute; bottom: 10px; right: 10px; font-size: 8px; color: white; background: #35221dcc; padding: 2px 7px; border-radius: 3px; }
+.bolo h3 { font-size: 22px; margin: 10px 0; }
+.bolo p { font-size: 12px; color: var(--color-text-muted); margin-bottom: 20px; }
+.bolo .eyebrow { font-size: 8px; letter-spacing: 1.9px; }
+.nota { font-size: 10px; color: var(--color-text-muted); margin: 30px 0 0; }
+.sobre { background: #f2eade; border-block: 1px solid #e7dccc; }
+.sobreConteudo { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; padding-block: 70px; }
+.sobreConteudo h2 { margin: 18px 0 22px; }
+.sobreConteudo > div > p { color: var(--color-text-muted); font-size: 13px; line-height: 1.9; }
+.retrato { margin: 0; position: relative; padding-bottom: 35px; }
+.retrato img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 48% 48% 4px 4px; border: 1px solid #cdb79b; }
+.retrato figcaption { position: absolute; bottom: 0; right: -20px; padding: 19px 28px; background: #faf5eb; border: 1px solid #cdb79b; transform: rotate(-3deg); box-shadow: 0 8px 25px #4a332d08; }
+.retrato figcaption > span { display: block; font: italic 23px var(--font-heading); }
+.retrato small { display: block; font-size: 8px; letter-spacing: 2.5px; margin-top: 8px; }
+.etapas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.etapas article { border-top: 1px solid #d9c9b9; padding-top: 20px; }
+.numero { font: italic 34px var(--font-heading); color: #ac6846; }
+.etapas h3 { font-size: 23px; margin: 18px 0 12px; }
+.etapas p { font-size: 12px; color: var(--color-text-muted); }
+.duvidas { display: grid; grid-template-columns: .85fr 1.15fr; gap: 75px; padding-block: 10px 90px; }
+.duvidas h2 { margin: 18px 0; }
+.duvidas > div > p { font-size: 12px; color: var(--color-text-muted); }
+.duvidas details { border-bottom: 1px solid #ddcebd; }
+.duvidas details:first-child { border-top: 1px solid #ddcebd; }
+.duvidas summary { cursor: pointer; padding: 20px 22px 20px 0; font-size: 12px; font-weight: 600; list-style: none; position: relative; }
+.duvidas summary::-webkit-details-marker { display: none; }
+.duvidas summary::after { content: "+"; position: absolute; right: 2px; font-size: 18px; top: 15px; color: #9b593b; }
+.duvidas details[open] summary::after { content: "−"; }
+.duvidas details p { font-size: 12px; color: var(--color-text-muted); padding-right: 20px; margin-bottom: 20px; }
+@media (max-width: 850px) { .faixa { gap: 25px; font-size: 8px; } .sobreConteudo { gap: 40px; } .imagem img { height: 260px; } .bolos { gap: 20px; } .duvidas { gap: 35px; } }
+@media (max-width: 650px) {
+  .faixa { gap: 12px; font-size: 7px; letter-spacing: .5px; text-align: center; }
+  .faixa > span:nth-child(even) { font-size: 15px; }
+  .secao { padding-block: 55px; }
+  .cabecalho { display: block; margin-bottom: 30px; }
+  .cabecalho > p { margin-top: 22px; }
+  .bolos, .sobreConteudo, .etapas, .duvidas { grid-template-columns: 1fr; }
+  .bolos { gap: 38px; }
+  .imagem img { height: 380px; }
+  .sobreConteudo { padding-block: 45px; gap: 35px; }
+  .retrato { max-width: 360px; width: 100%; margin-inline: auto; }
+  .retrato figcaption { right: -5px; }
+  .etapas { gap: 20px; }
+  .duvidas { padding-block: 0 55px; gap: 20px; }
+}

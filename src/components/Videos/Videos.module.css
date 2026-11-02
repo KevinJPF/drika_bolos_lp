@@ -1,0 +1,15 @@
+.secao { padding-block: 0 85px; }
+.secao h2 { margin: 18px 0 35px; }
+.secao em { color: var(--color-primary); font-weight: 400; }
+.lista { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+.player { height: 540px; overflow: hidden; border-radius: 130px 130px 5px 5px; background: #f2eade; }
+.player iframe { width: 100%; height: 100%; border: 0; }
+.player:has(iframe) { border-radius: 5px; }
+.capa { padding: 0; width: 100%; height: 100%; border: 0; position: relative; color: white; background: #4a332d; }
+.capa img { width: 100%; height: 100%; object-fit: cover; opacity: .8; transition: opacity .2s; }
+.capa:hover img { opacity: 1; }
+.capa > span { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; background: linear-gradient(transparent, #25180f66); font-size: 12px; }
+.capa b { display: grid; place-items: center; width: 70px; height: 70px; border-radius: 50%; border: 1px solid #ffffffaa; background: #4a332d66; font-size: 35px; }
+.lista h3 { font-size: 24px; margin: 20px 0 10px; }
+.nota { font-size: 10px; color: var(--color-text-muted); margin: 25px 0 0; }
+@media (max-width: 650px) { .secao { padding-bottom: 55px; } .lista { grid-template-columns: 1fr; gap: 35px; } .player { height: 480px; } }

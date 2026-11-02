@@ -1,0 +1,8 @@
+.contato { background: #efe1ce; border-top: 1px solid #e1cdb5; text-align: center; }
+.conteudo { position: relative; padding-block: 70px 55px; }
+.flor { display: block; color: #a96543; font-size: 45px; line-height: 1; margin-bottom: 22px; }
+.conteudo h2 { margin: 20px 0; }
+.conteudo > p { max-width: 430px; margin: 0 auto 28px; color: var(--color-text-muted); }
+.conteudo small { display: block; font-size: 10px; margin-top: 14px; }
+.status { min-height: 28px; margin-top: 12px; font-size: 12px; }
+.conteudo .local, .conteudo .mensagem { margin-top: 12px; font-size: 12px; }
