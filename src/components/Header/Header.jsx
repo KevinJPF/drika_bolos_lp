@@ -9,7 +9,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={`container ${styles.conteudo}`}>
         <a href="#inicio" className={styles.marca} aria-label={`${MARCA.nome}, início`}>
-          <img className={styles.logo} src="/LOGO%20PNG.png" alt="" width="80" height="72" />
+          <img className={styles.logo} src={`${import.meta.env.BASE_URL}LOGO%20PNG.png`} alt="" width="80" height="72" />
           <span>{MARCA.nome}<small>{MARCA.assinatura}</small></span>
         </a>
         <button className={styles.menu} aria-expanded={menuAberto} aria-controls="navegacao" onClick={() => setMenuAberto(!menuAberto)}>{menuAberto ? "Fechar ×" : "Menu ☰"}</button>

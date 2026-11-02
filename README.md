@@ -49,3 +49,12 @@ WhatsApp configurado: +55 11 97172-4308. Perfil: https://www.instagram.com/umrol
 `public/drika-retrato-profissional.png` foi criado com a ferramenta integrada ImageGen a partir da selfie da publicação `https://www.instagram.com/p/C_qD0RAu9OM/?img_index=1`, por solicitação do usuário. É um retrato gerado com IA baseado na foto real; o cenário e o figurino foram recriados. A configuração usada pela seção Sobre fica em `CONFEITEIRA`.
 
 Brief do prompt: preservar identidade facial, sorriso, cabelo, textura natural da pele e idade aparente; retrato profissional na altura dos olhos, blusa creme e avental caramelo, fundo discreto de confeitaria com luz natural suave, composição vertical para recorte em arco, sem texto, logos ou outras pessoas.
+
+
+## GitHub Pages
+
+No GitHub, abra Settings → Pages → Build and deployment → Source e selecione **GitHub Actions**. O workflow `.github/workflows/deploy.yml` instala as dependências, compila o Vite e publica somente `dist` após cada push na branch `main`. Também pode ser iniciado manualmente em Actions.
+
+URL prevista: https://kevinjpf.github.io/drika_bolos_lp/
+
+O workflow define `VITE_BASE_PATH=/drika_bolos_lp/`. Se renomear o repositório ou configurar um domínio próprio, atualize essa variável (para domínio próprio, use `/`). Imagens, logo e favicon respeitam a base. O desenvolvimento local continua em `/`.

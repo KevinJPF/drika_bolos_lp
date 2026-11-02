@@ -13,7 +13,7 @@ export const MARCA = {
 
 export const CONFEITEIRA = {
   nome: "Adriana Pires Meira",
-  foto: "/drika-retrato-profissional.png",
+  foto: `${import.meta.env.BASE_URL}drika-retrato-profissional.png`,
   alt: "Retrato de Adriana, a Drika, com avental em uma confeitaria",
 };
 
@@ -37,17 +37,17 @@ export const DEPOIMENTOS = [];
 // Imagens de trabalhos reais, obtidas das capas dos Reels do perfil profissional.
 // Os links de origem ficam junto aos itens para facilitar futuras atualizações.
 export const BOLOS = [
-  { id: "azul", categoria: "Bolos decorados", titulo: "Delicadeza em azul", descricao: "Decoração em chantininho com detalhes em azul, feita pela Drika.", imagem: "/bolos/bolo-azul.jpg", alt: "Bolo da Drika com acabamento branco e detalhes em chantininho azul", post: "https://www.instagram.com/p/DdPTHgmMCC-/" },
-  { id: "ganache", categoria: "Para quem ama chocolate", titulo: "Chocolate com ganache", descricao: "Bolo de chocolate com ganache de chocolate nobre, como apresentado no perfil.", imagem: "/bolos/chocolate-ganache.jpg", alt: "Bolo de chocolate com ganache preparado pela Drika", post: "https://www.instagram.com/p/DdPUQIRB65H/" },
-  { id: "cenoura", categoria: "Clássicos caseiros", titulo: "Cenoura com chocolate", descricao: "O encontro do bolo artesanal de cenoura com a cobertura de chocolate.", imagem: "/bolos/cenoura-chocolate.jpg", alt: "Bolo artesanal de cenoura com chocolate da Drika", post: "https://www.instagram.com/p/DdPSS5DtfAK/" },
-  { id: "divertidamente", categoria: "Bolos temáticos", titulo: "Uma festa de cores", descricao: "Uma decoração inspirada em Divertidamente, criada a pedido de uma cliente.", imagem: "/bolos/divertidamente.jpg", alt: "Bolo temático Divertidamente decorado pela Drika", post: "https://www.instagram.com/p/DdPUs10sGBG/" },
-  { id: "prestigio", categoria: "Para compartilhar", titulo: "Prestígio com brigadeiro", descricao: "Bolo prestígio com cobertura de brigadeiro escorrendo pelas laterais.", imagem: "/bolos/prestigio.jpg", alt: "Bolo prestígio da Drika com cobertura de brigadeiro", post: "https://www.instagram.com/p/DdPR2fUMzE4/" },
-  { id: "doces", categoria: "Doces de festa", titulo: "Pequenos doces, muito carinho", descricao: "Doces finos e tradicionais para acompanhar a sua comemoração.", imagem: "/bolos/doces.jpg", alt: "Doces de festa preparados pela Drika", post: "https://www.instagram.com/p/DQSVmSRicAE/" },
+  { id: "azul", categoria: "Bolos decorados", titulo: "Delicadeza em azul", descricao: "Decoração em chantininho com detalhes em azul, feita pela Drika.", imagem: `${import.meta.env.BASE_URL}bolos/bolo-azul.jpg`, alt: "Bolo da Drika com acabamento branco e detalhes em chantininho azul", post: "https://www.instagram.com/p/DdPTHgmMCC-/" },
+  { id: "ganache", categoria: "Para quem ama chocolate", titulo: "Chocolate com ganache", descricao: "Bolo de chocolate com ganache de chocolate nobre, como apresentado no perfil.", imagem: `${import.meta.env.BASE_URL}bolos/chocolate-ganache.jpg`, alt: "Bolo de chocolate com ganache preparado pela Drika", post: "https://www.instagram.com/p/DdPUQIRB65H/" },
+  { id: "cenoura", categoria: "Clássicos caseiros", titulo: "Cenoura com chocolate", descricao: "O encontro do bolo artesanal de cenoura com a cobertura de chocolate.", imagem: `${import.meta.env.BASE_URL}bolos/cenoura-chocolate.jpg`, alt: "Bolo artesanal de cenoura com chocolate da Drika", post: "https://www.instagram.com/p/DdPSS5DtfAK/" },
+  { id: "divertidamente", categoria: "Bolos temáticos", titulo: "Uma festa de cores", descricao: "Uma decoração inspirada em Divertidamente, criada a pedido de uma cliente.", imagem: `${import.meta.env.BASE_URL}bolos/divertidamente.jpg`, alt: "Bolo temático Divertidamente decorado pela Drika", post: "https://www.instagram.com/p/DdPUs10sGBG/" },
+  { id: "prestigio", categoria: "Para compartilhar", titulo: "Prestígio com brigadeiro", descricao: "Bolo prestígio com cobertura de brigadeiro escorrendo pelas laterais.", imagem: `${import.meta.env.BASE_URL}bolos/prestigio.jpg`, alt: "Bolo prestígio da Drika com cobertura de brigadeiro", post: "https://www.instagram.com/p/DdPR2fUMzE4/" },
+  { id: "doces", categoria: "Doces de festa", titulo: "Pequenos doces, muito carinho", descricao: "Doces finos e tradicionais para acompanhar a sua comemoração.", imagem: `${import.meta.env.BASE_URL}bolos/doces.jpg`, alt: "Doces de festa preparados pela Drika", post: "https://www.instagram.com/p/DQSVmSRicAE/" },
 ];
 
 export const VIDEOS = [
-  { id: "DdPVNQ3AoyS", titulo: "Um bolo bem chocolatudo", imagem: "/bolos/chocolate-ganache.jpg" },
-  { id: "DQ5ChXmDjj_", titulo: "O carinho em cada etapa da decoração", imagem: "/bolos/divertidamente.jpg" },
+  { id: "DdPVNQ3AoyS", titulo: "Um bolo bem chocolatudo", imagem: `${import.meta.env.BASE_URL}bolos/chocolate-ganache.jpg` },
+  { id: "DQ5ChXmDjj_", titulo: "O carinho em cada etapa da decoração", imagem: `${import.meta.env.BASE_URL}bolos/divertidamente.jpg` },
 ];
 
 export const ETAPAS = [
